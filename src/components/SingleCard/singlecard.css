@@ -1,0 +1,8 @@
+.single__card {
+    display: flex;
+    justify-content: center;
+}
+
+.singleCard__container a {
+    text-decoration: none;
+}

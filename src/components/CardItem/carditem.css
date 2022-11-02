@@ -1,0 +1,19 @@
+.card__item {
+    padding: 10px;
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    transition: 0.5s;
+    flex-direction: column;
+    width: calc(25% - 10px);
+    justify-content: center;
+}
+
+.card__item:hover {
+    transform: translateX(-5px) translateY(-5px);
+}
+
+.card__item a {
+    transition: 0.5s;
+    text-decoration: none;
+}
